@@ -29,7 +29,10 @@ export default function Home() {
       <FeatureOne />
       <CtaOne />
       <ServiceOne />
+      {/* 
+      
       <AboutOne />
+      */}
       <FunFactOne />
       <CtaTwo />
       <TeamOne />
