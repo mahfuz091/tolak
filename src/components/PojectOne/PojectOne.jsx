@@ -1,3 +1,4 @@
+'use client'
 import pojectOneData from '@/data/PojectOneData';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
@@ -36,8 +37,6 @@ const settings = {
 
 const PojectOne = () => {
     const [mounted, setMounted] = useState(false);
-
-
 
     useEffect(() => {
         setMounted(true);

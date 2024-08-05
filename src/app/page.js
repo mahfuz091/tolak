@@ -36,14 +36,14 @@ export default function Home() {
       <FunFactOne />
       <CtaTwo />
       <TeamOne />
-      {/* <OurSolution /> */}
-      {/* <FeatureTwo />
+      <OurSolution />
+      <FeatureTwo />
       <PojectOne />
       <ClientCarousel />
       <SlideText />
       <ContactOne />
       <BlogOne />
-      <Mail /> */}
+      <Mail />
 
     </Layout>
   );

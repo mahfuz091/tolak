@@ -19,7 +19,6 @@ const { tagLine, title, carouselData } = teamOneData
 const TeamOne = () => {
     const [mounted, setMounted] = useState(false);
 
-    const [counterOn, setCounterOn] = useState(false);
 
     useEffect(() => {
         setMounted(true);
