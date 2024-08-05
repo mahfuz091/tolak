@@ -66,7 +66,7 @@ const ContactOne = () => {
                                     }
 
                                 </p>
-                                <form className="contact-one__form contact-form-validated form-one" action="inc/sendemail.php">
+                                <form onSubmit={handleSubmit} className="contact-one__form contact-form-validated form-one" >
                                     <div className="form-one__group">
                                         <div className="form-one__control">
                                             <input type="text" name="name" placeholder="Your Name" />

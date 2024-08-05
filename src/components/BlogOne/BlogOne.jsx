@@ -36,8 +36,6 @@ const { tagLine, title, carouselData } = blogOneData
 const BlogOne = () => {
     const [mounted, setMounted] = useState(false);
 
-
-
     useEffect(() => {
         setMounted(true);
     }, []);

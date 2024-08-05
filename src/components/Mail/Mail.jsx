@@ -1,5 +1,5 @@
 import React from 'react';
-import NewsLetterForm from '../SidebarNewsletter/NewsLetterForm';
+
 import SidebarNewsletter from '../SidebarNewsletter/SidebarNewsletter';
 
 const Mail = () => {

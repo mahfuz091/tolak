@@ -11,8 +11,6 @@ const TinySlider = dynamic(() => import("tiny-slider-react"), {
 const ClientCarousel = () => {
     const [mounted, setMounted] = useState(false);
 
-
-
     useEffect(() => {
         setMounted(true);
     }, []);

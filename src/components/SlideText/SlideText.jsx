@@ -1,21 +1,29 @@
+'use client'
 import slideTextData from '@/data/SlideTextData';
-import React from 'react';
-import { Parallax } from "react-parallax";
-import Jarallax from '../Jarallax/Jarallax';
+import React, { useEffect, useState } from 'react';
 import JarallaxImage from '../Jarallax/JarallaxImage';
+
+const Jarallax = dynamic(() => import("@/components/Jarallax/Jarallax"), {
+    ssr: false,
+});
 const { bg, lists } = slideTextData
 
 const SlideText = () => {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) {
+        return null;
+    }
     return (
         <section className="slide-text">
             <Jarallax className="slide-text__bg" speed={0.2} imgPosition="center cnter">
                 <JarallaxImage src={bg.src} />
             </Jarallax>
-            {/* <Parallax
 
-                bgImage={bg.src}
-                className='slide-text__bg'
-            ></Parallax> */}
 
             <div className="slide-text__wrap">
                 <ul className="slide-text__list list-unstyled">
