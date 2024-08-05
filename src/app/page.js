@@ -29,21 +29,21 @@ export default function Home() {
       <FeatureOne />
       <CtaOne />
       <ServiceOne />
-      {/* 
-      
+
+
       <AboutOne />
-      */}
+
       <FunFactOne />
       <CtaTwo />
       <TeamOne />
       <OurSolution />
-      <FeatureTwo />
+      {/* <FeatureTwo />
       <PojectOne />
       <ClientCarousel />
       <SlideText />
       <ContactOne />
       <BlogOne />
-      <Mail />
+      <Mail /> */}
 
     </Layout>
   );
