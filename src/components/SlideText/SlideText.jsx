@@ -2,6 +2,8 @@
 import slideTextData from '@/data/SlideTextData';
 import React, { useEffect, useState } from 'react';
 import JarallaxImage from '../Jarallax/JarallaxImage';
+import dynamic from 'next/dynamic';
+
 
 const Jarallax = dynamic(() => import("@/components/Jarallax/Jarallax"), {
     ssr: false,
